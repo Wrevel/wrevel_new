@@ -1,0 +1,345 @@
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+#header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.headline{
+  width: 100%;
+}
+
+.circle_box{
+  width: 200px;
+  height: 200px;
+}
+
+.bottom-link{
+width:10%; 
+padding: 2%;  
+color:gray;
+}
+
+.copy_right{
+	text-align:left;
+	margin-left:50px;
+	color:gray;
+}
+
+.container {
+  width: auto;
+  padding: 0;
+}
+
+body{
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#97B0C6', endColorstr='#E9EFF5', GradientType='0'); /*IE*/
+background: -ms-linear-gradient(top, #97B0C6, #E9EFF5);       /* IE 10 */
+background: -o-linear-gradient(top, #97B0C6,#E9EFF5);  /* Opera 11.10+*/ 
+background:-moz-linear-gradient(top,#97B0C6,#E9EFF5); 
+background: -webkit-linear-gradient(top, #97B0C6,#E9EFF5);   /*Safari5.1 Chrome10+*/
+background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#97B0C6), to(#E9EFF5));
+font-family:"GillSans Light";
+
+}
+
+html{
+	min-height:100%;
+}
+
+.tab{
+	background:#55C3C0;
+	color:white;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+.btn:hover{
+	color:white;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.active{
+	background:#2C7E78;
+}
+
+<<<<<<< HEAD
+.harizontal{
+	width:100%;
+}
+=======
+@import url(http://weloveiconfonts.com/api/?family=brandico|entypo|maki);
+>>>>>>> bcad1cb5a9b6bc1a863759df1af4d1cad3a31b89
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/* maki */
+[class*="maki-"]:before {
+  font-family: 'maki', sans-serif;
+}
+
+//.panel-default{
+//	background-color:transparent;
+//}
+
+.blue-button{
+	background:#1A75BF;
+	color:white;
+	font-size:20px;
+	width:75%;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+//a{
+//	text-decoration:none;
+//	color:white;
+//}
+
+.info{
+	font-size:18px;
+}
+
+.post{
+	width:38%;
+	display:inline-block;
+	margin-left:15%;
+}
+
+.upload{
+	width:15%;
+	background-color:#2CA8DC;
+	font-size:28px;
+	padding:4px;
+	display:inline-block;
+}
+
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;    
+}
+.left-inner-addon span {
+    position: absolute;
+    padding: 7px 8px;
+    pointer-events: none;
+	font-size:20px;
+}
+
+.left-inner-addon i{
+    position: absolute;
+    padding: 7px 8px;
+    pointer-events: none;
+	font-size:20px;
+}
+
+@font-face {
+  font-family: 'GillSans Light';
+    src: url('../fonts/gillsans_light.eot');/*IE*/
+    src: url('../fonts/gillsans_light.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/gillsans_light.ttf') format('truetype'),
+     url('../fonts/gillsans_light.otf');// chrome and safari.
+}
+
+.wrev-tabs{
+	font-size:18px;
+}
+
+.wrev-tabs a{
+	color:black;
+}
+
+.show-more{
+	width:38%;
+}
+
+.arrows{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	width:10%;
+}
+
+.background{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#D9DFED', endColorstr='#F8F9FB', GradientType='0'); /*IE*/
+	background: -ms-linear-gradient(top, #D9DFED, #F8F9FB);       /* IE 10 */
+	background: -o-linear-gradient(top, #D9DFED,#F8F9FB);  /* Opera 11.10+*/ 
+	background:-moz-linear-gradient(top,#D9DFED,#F8F9FB); 
+	background: -webkit-linear-gradient(top, #D9DFED,#F8F9FB);   /*Safari5.1 Chrome10+*/
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#D9DFED), to(#F8F9FB));
+}
+
+.default{
+	background:none; 
+	border:none; 
+	box-shadow:none;
+}
+.thumbnail{
+	padding:0;
+}
+
+div{
+	width:auto;
+}
+
+@media (max-width: 405px) {
+ .line {
+   display: none;
+  }
+  p.text{
+   font-size:10px;
+  }
+  
+}
+
+.event{
+	font-size:50px;
+	text-align:center;
+	color:white;
+}
+
+.wrev-image{
+	width:70px;
+}
+
+.pronounce{
+	font-size:32px;
+	color:white;
+}
+.definition{
+	text-align:center;
+	font-size:32px;
+	color:white;
+}
+
+.bars{
+	width:40px;
+	margin-top:-15px;
+}
+
+.hotspots{
+	width:40px;
+}
+
+.icebreakers{
+	width:50px;
+}
+
+.romance{
+	width:50px;
+}
+
+.parties{
+	width:45px;
+}
+
+.lounges{
+	width:30px;
+	margin-top:-15px;
+}
+
+
+table { 
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+
+.image{
+	border-radius:10px;
+	color:white;
+}
+
+.details{
+	position:absolute;
+	//margin:10px;
+	font-size:20px;
+	 top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+	//width:355px;
+    //height: 410px;
+  margin:15px;
+  color:white;
+}
+
+.date{
+	font-size:inherit;
+	float:right;
+	opacity:0.8;
+}
+
+.romance-date{
+	background:rgba(145,123,144,0.9);
+	
+}
+
+.bars-date{
+	background:rgba(174,146,98,0.9);
+	
+	
+}
+
+.clubs-date{
+	background:rgba(61,39,77,0.9);
+	
+}
+
+.concerts-date{
+	background:rgba(74,140,106,0.9);
+}
+
+.culture-date{
+	background:rgba(221,156,152,0.9);
+}
+
+.attending{
+	background:white; 
+	color:black;
+	font-size:inherit;
+}
+
+.share{
+	text-align:center;
+	font-size:35px;
+}
+
+
+.location{
+	padding:10px;
+	color:white;
+	font-size:20px;
+}
+.location-romance{
+	//background:rgba(216,162,228,0.5);
+}
+
+.more{
+	display:none;
+}
+
+
+.listing-button{
+	font-size:30px;
+	background:#115A91;
+	color:white;
+}
