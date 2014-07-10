@@ -17,7 +17,7 @@
      </div>
 </div>
 
-  <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+  <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true" style="padding-right:200px;">
       <div class="modal-dialog">
       
         <div class="modal-content" style="color:white; background:#216EAD; width:800px;">
@@ -191,7 +191,7 @@
                 		</form>
                 
                 		<i class="fa fa-ticket fa-flip-horizontal fa-5x" style="margin-top:25px;"></i>
-                		<button type="button" class="btn" style="background:#47AFEA; color:white;">set up tickets</button>
+                		<a data-toggle="modal" href="#myModal2" class="btn" type="button" style="background:#47AFEA; color:white;">set up tickets</a>
                 
             		</div>
                 </div>
@@ -257,7 +257,107 @@
         </div>
         </div>
       </div>
-  </div>      
+  </div>
+  <div class="modal" id="myModal2" style="padding-right: 200px;">     
+	<div class="modal-dialog">
+      <div class="modal-content" style="width: 800px; height: 1000px; border-radius: 10px;">
+
+      
+    <div class="panel" style="width: 800px; height: 1000px; background-color: #006eaa; border-radius: 10px;">
+    
+    <div class="panel-body">
+	   <p style="font-size: 230%; color: white;text-align: center;">
+		<b>Set up tickets</b>
+	    </p>
+	   
+	    <p style="font-size: 150%; color: white;text-align: justify;">
+		 This is what your ticket will look like
+	    </p>
+	    
+	    <div class="panel" style="width: 700px; border-color: #006eaa; border-radius: 10px; margin-left:40px;">
+		
+		<div class="panel-heading" style="background-color: #3b91c6; height: 70px; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+		    <p style="font-size: 50px;text-align: left; color: white; margin-top: -10px;">
+			Hot Rabbit
+		    
+		    <img src="images/wrevel_logo.png"style="width:200px;z-index:1; float: right; margin-top: 10px;"/>
+		    </p>
+		</div>
+		
+		    <div class="panel-body">
+			<div class="col-md-8 col-sm-8 col-xs-8">
+     
+	    <p style="font-size: 150%;text-align: justify;">
+		 Name &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; name
+	    </p>
+             <p style="font-size: 150%;text-align: justify;">
+		 Ticket Type &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; type
+	    </p>
+	      <p style="font-size: 150%;text-align: justify;">
+		 Wrevenue &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  wrevenue
+	    </p>
+	       <p style="font-size: 150%;text-align: justify;">
+		 Event Title &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; title
+	    </p>
+	        <p style="font-size: 150%;text-align: justify;">
+		Price &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;  price
+	    </p>
+		 <p style="font-size: 150%;text-align: justify;">
+		 Description  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+		 description1<br>
+		 &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;2<br>
+		 &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;3<br>
+		 &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;4<br>
+		 &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;5<br>
+		 </p>
+		 <p style="font-size: 150%;text-align: justify;">
+		 Date &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; date
+	    </p>
+		 <p style="font-size: 150%;text-align: justify;">
+		 Time &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; time
+	    </p>
+		 <p style="font-size: 150%;text-align: justify;">
+		Location  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; location
+	    </p>
+		 
+		<hr style="width:1px; height:480px; background-color: grey; margin-top: -480px; margin-left: 400px;"/>
+			</div>
+			
+			<div class="col-md-4 col-sm-4 col-xs-4">
+			    <img src="images/2d.png"style="width:200px;z-index:1; margin-top: 25px;"/>
+			    <p style="font-size:7px; margin-top: 150px;">
+				<b>Disclaimer</b><br>
+				Please bring a valid photo ID to the event with this ticket.<br>
+				Your name on the ticket must match with your photo ID.<br>
+				To prevent confusion, we only allow one ticket per person<br>
+				and one ticket per group in case of group purchase.<br>
+				All sales are final. No refund or exchange can be issued.<br>
+				Valid only for the event specified on this ticket<br>
+				<br>
+				If you have any questions or concerns, feel free to email.<br>
+				customer support at admin@wrevel.com
+			    </p>
+			</div>
+        
+    </div>
+	    </div>
+
+                    <form style="text-align: center; font-size: 20px; color: white;">
+       			    <input type="radio" name="gender" value="male"> approve
+			    <input type="radio" name="gender" value="female"> disapprove
+         	    </form>
+	    
+	    <button type="submit" class="btn btn-lg" style="color: #006eaa; background-color: white; float: right;">Submit</button>
+
+    </div>
+    </div>
+ 
+
+      </div>
+    </div>
+</div>
+  
+  
 
 
    <script src="https://code.jquery.com/jquery.js"></script>
